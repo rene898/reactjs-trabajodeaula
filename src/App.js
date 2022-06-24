@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Table, Button, Container, Modal, ModalBody, ModalHeader, FormGroup, ModalFooter} from 'reactstrap';
 
 const data = [
-  {id: 1, person: "Alberto", ocupation: "Master in API Rest"},
-  {id: 2, person: "Herson", ocupation: "Master React JS"},
-  {id: 3, person: "Mauricio", ocupation: "Master Database"},
-  {id: 4, person: "Dylan", ocupation: "Master in Mobile Devices"},
-  {id: 5, person: "Guillermo", ocupation: "Master in Language C++" },
-  {id: 6, person: "Unknown", ocupation: "We don't know"}
+  {id: 1, person: "Nestor", ocupation: "Master in Mobile Device Programmer"},
+  {id: 2, person: "Alberto", ocupation: "Master in API Rest"},
+  {id: 3, person: "Herson", ocupation: "Master React JS"},
+  {id: 4, person: "Mauricio", ocupation: "Master Database"},
+  {id: 5, person: "Unknown", ocupation: "We don't know"}
 ]; 
 
 class App extends React.Component {
